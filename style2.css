@@ -1,0 +1,45 @@
+h1
+{
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	border: dotted;
+	display: flex;
+	width: 30%;
+	justify-content: center;
+
+}
+.testTitre
+{
+	display: flex;
+	justify-content: center;
+	background-color: #1BC9B9;
+}
+.box_annonces
+{
+	background-color: #CDCDCD;
+	display: flex;
+	width: 96%;
+}
+.testFlex
+{
+	display: flex;
+}
+.menu
+{
+	border: dotted;
+	padding-right: 20px;
+
+}
+.list
+{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	border: dotted;
+	height: 100%;
+	margin: 10%;
+
+
+}
