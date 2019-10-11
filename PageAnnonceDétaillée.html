@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Projet Alpha</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="script.js"></script>
 </head>
 <body>
-	<h1>Site référencement Stage</h1>
-	<section>
-		<ul>
-			<li>Accueil</li>
-			<li>Tips</li>
-			<li>Carte</li>
-			<li>Nous contacter</li>
-		</ul>
-	</section>
-	<section>
-		<div>
-			<a href="Lien Popup">Lien popup icone Enveloppe</a>
-			<a href="Lien Popup">Lien popup icone Telephone</a>
-			<a href="Lien Popup">Lien popup icone GPS</a>
+	<div class="titre">
+	<h1>Référencement Stage</h1>
+	</div>
+	<!-- Menu coté -->
+		<div id="menu">
+				<a href="PageAccueilProjet.html"><i id="home"class="fa fa-home" aria-hidden="true"> Accueil</i></a>
+				<a href="PageCV.html"><i class="fa fa-lightbulb-o" aria-hidden="true"> Tips</i></a>
+				<a href="Map.html"><i class="fa fa-map" aria-hidden="true"> Map</i></a>
+			<div onclick="phone()" id="menu_tel">
+				<i class="fa fa-phone" aria-hidden="true">Tel</i>
+			</div>
+			<div onclick="mail()" id="menu_mail">
+				<i class="fa fa-envelope" aria-hidden="true"> Mail</i>
+			</div>
+			<div onclick="affiche_menu()" id="menu_bar">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
 		</div>
-		<div>
-			<a href="https://placeholder.com" title="The Hobbit"><img src="https://via.placeholder.com/50" alt="Icone_entreprise"></a>
-			<p>Petite description entreprise ou annonce</p>
+
+	<!-- -->
+	<section>
+		<div id="barre_mobile_detaillee">
+			<a href='mailto:contact@contact.fr' id="mail_barre_mobile_detaillee"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			<a href='tel: 0247010203' id="tel_barre_mobile_detaillee"><i class="fa fa-phone" aria-hidden="true"></i></a>
+			<a href='' onclick="map()"><i class="fa fa-map" aria-hidden="true"></i></a>
 		</div>
-		<div>
+
+	<div class="annonce">
+		<div class="photo_annonce">
+			<a href="https://placeholder.com" title="The Hobbit"><img src="https://via.placeholder.com/50" alt="Icone_entreprise"  class="img_entreprise_detaillee"></a>
+		<h4>Petite description entreprise ou annonce</h4>
+		</div>
+		<div class = "corps_annonce">
 			<p>
-				Annoce detaillée : En tant que langue maternelle, le latin est une langue morte. Répandue dans les pays méditerranéens et jusqu'aux rives du Rhin et du Danube et en Grande-Bretagne au temps de l'Empire romain, et devenue par la suite durant le Moyen Âge et les Temps modernes la langue culturelle commune des lettrés européens et des universités, le latin n'a plus de locuteurs « natifs ».
+				Annonce detaillée : En tant que langue maternelle, le latin est une langue morte. Répandue dans les pays méditerranéens et jusqu'aux rives du Rhin et du Danube et en Grande-Bretagne au temps de l'Empire romain, et devenue par la suite durant le Moyen Âge et les Temps modernes la langue culturelle commune des lettrés européens et des universités, le latin n'a plus de locuteurs « natifs ».
 
-Historiquement, les langues romanes, y compris le français, sont sa continuation linguistique ininterrompue. Mais le latin est resté en usage dans certaines institutions ou à certaines fins : il est d'utilisation courante et recommandée dans les noms, descriptions et diagnoses de toute nouvelle espèce biologique ; c'est la langue de référence de l'Église catholique romaine et jusqu'au début du xxe siècle les thèses de doctorat de nombreuses universités devaient être présentées en latin3. Le latin également a produit jusqu'à une époque récente une importante littérature tant en prose qu'en vers dans tous les pays européens ou de culture européenne, au Moyen Âge, à la Renaissance, à l'époque humanistique, post-humanistique et contemporaine4.
+				Historiquement, les langues romanes, y compris le français, sont sa continuation linguistique ininterrompue. Mais le latin est resté en usage dans certaines institutions ou à certaines fins : il est d'utilisation courante et recommandée dans les noms, descriptions et diagnoses de toute nouvelle espèce biologique ; c'est la langue de référence de l'Église catholique romaine et jusqu'au début du xxe siècle les thèses de doctorat de nombreuses universités devaient être présentées en latin3. Le latin également a produit jusqu'à une époque récente une importante littérature tant en prose qu'en vers dans tous les pays européens ou de culture européenne, au Moyen Âge, à la Renaissance, à l'époque humanistique, post-humanistique et contemporaine4.
 
-Certains commentateurs estiment que le projet de Wikipédia en latin a un côté humoristique5.
+				Certains commentateurs estiment que le projet de Wikipédia en latin a un côté humoristique5.
 			</p>
-			<p><a href="Lien Entreprise">Lien Entreprise</a></p>
+			<p class="site_annonce">
+			<a href="Lien Entreprise"><i class="fa fa-globe"></i>Site de l'entreprise</a>
+			</p>
 		</div>
+	</div>
 	</section>
+	<hr>
 	<footer>
-		<a href="Facebook">Lien Facebook en Icone</a> <a href="Lien Twitter">Lien Twitter en Icone</a> <a href="Lien">Lien Instagram</a> <a href="Lien Google+">Lien Google+ en Icone</a>
+		<a href=""><i class="fa fa-facebook-square"></i></a><a href=""><i class="fa fa-twitter-square"></i></a><a href=""><i class="fa fa-instagram"></i></a><a href=""><i class="fa fa-google-plus-square"></i></a>
 	</footer>
+
 
 </body>
 </html>

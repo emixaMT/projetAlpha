@@ -1,0 +1,10 @@
+#menu {
+	display:flex;
+	flex-direction:column;
+	width:10%;
+}
+
+#menu_bar {
+	margin-left:50%;
+	margin-top: -80%;
+}
