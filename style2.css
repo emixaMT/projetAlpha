@@ -18,9 +18,9 @@ h1
 	display: flex;
 	justify-content: center;
 	background-color: #ff9a00;
-	font-size: 3em;
-
+	font-size: 2.5em;
 }
+
 
 /* CSS DU FORMULAIRE DE CONTACT POUR MOBILE PC*/
 #barre_mobile_detaillee {
@@ -55,8 +55,8 @@ h1
 	padding-left: 1%;
 	margin-top: 10%;
     margin-left: -27%;
-    font-size: 4em;
-    height: 100%;
+    font-size: 3em;
+    height: 70%;
     width: 30%;
     position: absolute;
     background: white;
@@ -156,6 +156,7 @@ h1
 	height:100%;
 	margin-top: 3%;
 	width: 20%;
+	text-align: center;
 }
 
 /* FIN CORPS ANNONCE DETAILLEE */
@@ -196,13 +197,9 @@ h1
 
 footer {
 	text-align: center;
-	font-size: 4em;
+	padding-top: 10%;
 }
 
-footer i{
-	margin: 5%;
-	color: #ff9a00;
-}
 .tailleTexte
 {
 	font-size: 0.5em;
