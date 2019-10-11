@@ -11,7 +11,6 @@ function mail(){
 }
 //menu mobile
 function affiche_menu(){	
-
 	if (document.getElementById('menu').getAttribute("style") == "margin-left : 0")
 		{
 			document.getElementById('menu').setAttribute("style", "margin-left : -27%");
